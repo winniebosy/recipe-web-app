@@ -9,12 +9,26 @@
    --primaryfontcolor: #333333;
    --primaryfontsize : 1.3rem;
 
-
-
-
-   
-
-
-
-
 }
+  html {
+     box-sizing: border-box;
+
+
+  }
+  * , ::before , ::after {
+
+    box-sizing: inherit;
+
+  }
+
+/* bpdy default */
+  body {
+     padding: 0;
+     margin: 0;
+
+
+  }
+/* headings */
+  h1,h2,h3,h4,h5,h6 {
+     margin: 0;
+  }
