@@ -1,5 +1,5 @@
 :root {
-   --bgcolor-navbar : #383E4C;
+   --bgcolor-navbar : #333a49;
    --bgcolor-green: #178A27;
    --bgcolor-blue: #1686C1;
    --bgcolor-red: #852406;
@@ -7,7 +7,7 @@
    --primarybordercolor: #ccc;
    --titlefontcolor: #666666;
    --primaryfontcolor: #333333;
-   --primaryfontsize : 1.3rem;
+   --primaryfontsize : 1.1rem;
 
 }
   html {
@@ -50,6 +50,7 @@
   
   ul,li {
      list-style-type: none;
+     margin: 0;
   }
 
   .navbar-list {
@@ -58,16 +59,24 @@
      justify-content: center;
       flex-flow:row wrap;
       gap: 3rem;
-      padding: 1rem;
+      padding: 0.5rem;
 
 
   }
 
   .navbar-item{
      font-size: 1.5rem;
-
+     padding: 0  1rem 1rem 0;
      
-
-     
+  }
+  a {
+   padding: 1rem 2rem 2rem 1rem;
+   text-decoration: none;
+   color: #fff;
+   font-weight: bold;
+   font-size: var(--primaryfontsize);
+   border: 2px solid #ff0000;
+   padding:  0.8em 2.1em;
+   
   }
   /* navigation section stylings end here */
