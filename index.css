@@ -12,7 +12,6 @@
 }
   html {
      box-sizing: border-box;
-     
 
 
   }
@@ -37,12 +36,15 @@
 
 
 
-
-  
+/* navigation stylings  */
+  .navbar-bg {
+   background-color: var(--bgcolor-navbar);
+   max-width: 100%;
+   margin-top: -2rem;
+  }
   nav{
    background-color: var(--bgcolor-navbar);
    max-width: 100%;
-   border: 2px solid #383E4C;
-   
   }
   
+  /* navigation section stylings end here */
