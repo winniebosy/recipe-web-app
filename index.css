@@ -1,5 +1,5 @@
 :root {
-   --bgcolor-navbar : #333a49;
+   --bgcolor-navbar :  #171321;;
    --bgcolor-green: #178A27;
    --bgcolor-blue: #1686C1;
    --bgcolor-red: #852406;
@@ -79,4 +79,15 @@
    padding:  0.8em 2.1em;
    
   }
+
+  /* logo styling */
+  nav a [class*="fas fa-"]{
+     font-size: 200%;
+     color: #e4a914;
+     border-style: none;
+  }
+  
+     
+  
+  /* logo styling ends here */
   /* navigation section stylings end here */
