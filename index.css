@@ -65,7 +65,7 @@
   }
 
   .navbar-item{
-     font-size: 1.5rem;
+     font-size: 1.2rem;
      padding: 0  1rem 1rem 0;
      
   }
@@ -75,19 +75,24 @@
    color: #fff;
    font-weight: bold;
    font-size: var(--primaryfontsize);
-   border: 1px solid var(--primarybordercolor);
    padding:  0.8em 2.1em;
    
   }
 
-  /* logo styling */
-  nav a [class*="fas fa-"]{
-     font-size: 200%;
-     color: #e4a914;
-     border-style: none;
+  nav [ class *="navbar-item"]{
+     border:1px ridge var(--primarybordercolor);
   }
+
+  /* logo styling */
   
-     
+
+  nav a [class*="fas fa-"]{
+     font-size: 150%;
+     color: #e4a914;
+     margin: 0.3rem 0 0 0.1rem;
+    
+   
+  }
   
   /* logo styling ends here */
   /* navigation section stylings end here */
