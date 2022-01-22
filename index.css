@@ -40,12 +40,14 @@
   .navbar-bg {
    background-color: var(--bgcolor-navbar);
    max-width: 100%;
-   margin-top: -2rem;
+   margin-top: -2.5rem;
+
   }
   nav{
    background-color: var(--bgcolor-navbar);
    max-width: 100%;
    border-top: 2px solid var(--bgcolor-navbar) ;
+   padding-bottom: 1rem;
   }
   
   ul,li {
@@ -59,7 +61,8 @@
      justify-content: center;
       flex-flow:row wrap;
       gap: 3rem;
-      padding: 0.5rem;
+      padding: 0.3rem;
+      border: 2px solid red;
 
 
   }
@@ -78,7 +81,9 @@
    padding:  0.8em 2.1em;
    
   }
-
+  .navbar-brand{
+     border: 2px solid red;
+  }
   nav [ class *="navbar-item"]{
      border:1px ridge var(--primarybordercolor);
   }
