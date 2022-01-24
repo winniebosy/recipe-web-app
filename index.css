@@ -75,16 +75,18 @@
   a {
    padding: 1.5rem 2rem 2rem 1rem;
    text-decoration: none;
-   color: #fff;
+   color: var(--primarybordercolor);
    font-weight: bold;
    font-size: var(--primaryfontsize);
    padding:  0.8em 2.1em;
    
   }
-  
-  nav [ class *="navbar-item"]{
-     border:1px ridge var(--primarybordercolor);
+
+  li a:hover{
+     background-color: rgb(1, 46, 48);
   }
+  
+ 
 
   /* logo styling */
   
