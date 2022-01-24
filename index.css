@@ -110,6 +110,7 @@
      text-align: right;
      box-sizing: border-box;
      color: var(--bglink);
+     float:right;
      
 
   }
