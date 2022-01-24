@@ -92,7 +92,7 @@
   
 
   nav a [class*="fas fa-"]{
-     font-size: 120%;
+     font-size: 140%;
      color: #e4a914;
      margin: 0.3rem 0 0 0.1rem;
     
@@ -111,6 +111,7 @@
      box-sizing: border-box;
      color: var(--bglink);
      float:right;
+     margin: 0.5rem 1rem 0 0;
      
 
   }
