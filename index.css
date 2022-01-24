@@ -112,6 +112,7 @@
      color: var(--bglink);
      float:right;
      margin: 0.5rem 1rem 0 0;
+     border: 3px solid #2c2442;
      
 
   }
