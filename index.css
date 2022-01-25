@@ -82,7 +82,7 @@
    
   }
 
-  li a:hover{
+  li a:hover, a:focus{
      background-color: rgb(1, 46, 48);
   }
   
