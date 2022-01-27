@@ -11,6 +11,7 @@
     <!--external fonts-->
 
     <!--font awesome-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 </head>
 <body>
 
@@ -21,43 +22,84 @@
         <!-- logo branding  -->
          <section class ="navbar-brand">
              <a class= "navbar-link" href ="index.html">
-                 RECIPES
-             <!-- image logo to be here -->
+                <span class="fas fa-hamburger" aria-hidden="true"></span>
+                <!-- for screen reader -->
+                  <span class ="sr-only">Hamburger Logo</span>
             </a>
-         </section>
-         <!-- logo branding ends here -->
-    
-        <ul class= "navbar-list">
-            <li class="navbar-item"><a href="#">Home</a></li>
-            <li class="navbar-item"><a href="#">About Us</a></li>
-            <li class="navbar-item"><a href="#">Services</a></li>
-            <li class="navbar-item"><a href="#">Contact</a></li>
-        </ul>
-    <!--navigation menu for mobile-->
-    
+             <!--navigation menu for mobile-->
 
+            <button class ="navbar-toggler">
+                <i class="fas fa-bars"></i>
+                <!-- for screen readers only -->
+                <span class ="sr-only">navbar menu </span>
+           </button>
+       <!-- logo branding ends here -->
+
+         </section>
+         
 
     <!--navigation menu for mobile ends here-->
 
 
-
-
-
-
-
+    <!-- navigation menu -->
+        <ul class= "navbar-list">
+            <li class="navbar-item-one"><a href="#" >Home</a></li>
+            <li class="navbar-item-two"><a href="#">About Us</a></li>
+            <li class="navbar-item-three"><a href="#">Services</a></li>
+            <li class="navbar-item-four"><a href="#">Contacts</a></li>
+        </ul>
+        <!-- navigation menu ends here -->
     </nav>
-
     <!--navigation section ends here-->
 
+
     <!--header section-->
+    <!-- parallax  -->
+    <div class ="header">
+     <section class ="header-introduction">
+    <h1 class ="header-title">RECIPE WEBSITE</h1>
+      <p class ="header-description">Simple recipe website template made with HTML, CSS and Javascript</p>
+    </section>
+</div>
+    <!-- parallax ends here -->
     <!--header section ends here-->
 
-    <!--About  section-->
-     <!--Blog section starts here-->
-     <!--Blog section ends here-->
 
+
+    <!--About  section-->
+<section class="about-section">
+
+    <div class ="about-menu--cards">
+    <!-- breakfast menu card -->
+      
+
+    <!-- breakfast menu card ends here-->
+
+
+    <!-- lunch menu card -->
+    <!-- lunch menu card ends here-->
+
+    <!-- dinner menu card -->
+    <!-- dinner menu card ends here -->
+</div>
+
+
+<div class ="about recipe-ideas--cards">
+ <!-- holliday recipe ideas card  -->
+ <!-- holiday recipe ideas card ends here -->
+
+ <!-- family gathering recipe ideas v -->
+ <!-- family gathering recipe ideas card ideas ends here -->
+
+</div>
+
+</section>
 
     <!-- About section ends here-->
+
+
+
+
 
     <!--our services -->
     <!--our services section ends here-->
