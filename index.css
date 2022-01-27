@@ -116,13 +116,33 @@
      float:right;
      margin: 0.5rem 1rem 0 0;
      border: 3px solid #2c2442;
+     display: none;
+
      
 
   }
   /* mobile navigation toggle ends here */
 
   /* media query for navigation */
-  /* @media only screen and (min-width:480px) and (max-width:767px){} */
+   @media (min-width:480px) and (max-width:767px){ 
+      button[ class *="navbar-toggler"] {
+         display:block; 
+         cursor: pointer;
+
+   } 
+
+   button[ class *="navbar-toggler"]:focus {
+      background-color: #010d0e;
+   }
+
+   ul {
+      width:100%;
+   }
+
+   ul li {
+      display:block;
+   }
+}
 
   
   /* media query for navigation ends here */
