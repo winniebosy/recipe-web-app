@@ -142,15 +142,56 @@
       align-content: center;
       justify-content: center;
        flex-flow:column;
-       gap: 0rem;
-       padding: 0.3rem;
+      
        
  
+   }
+
+  ul{
+    
+     margin: 1.2rem 1rem 1rem 1rem;
+     text-align: center;
+  }
+  li{
+     padding: 1rem;
+     border: 1px ridge #47444480;
+  }
+   
+   li[ class *="navbar-item"]{ 
+    width: 100%; 
+   
+    
+   }
+
+   li[ class *="navbar-item-two"]{
+      
+      width: 100%; 
+      margin-top: -3rem;
+     }
+     li[ class *="navbar-item-three"]{
+      width: 100%; 
+      margin-top: -3rem;
+
+     }
+     li[ class *="navbar-item-four"]{
+      width: 100%; 
+      margin-top: -3rem;;
+     }
+
+  li:hover, li:focus{
+   background-color: rgb(1, 46, 48);
+  }
+   li a {
+      font-size: 1rem;
+      width: 100%;
+      padding: .5rem 1rem 1rem .5rem;
+      
+     
+   }
+  
+
  
-   }
-   li{
-      border: 2px solid green;
-   }
+   
  
 }
 
