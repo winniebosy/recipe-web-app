@@ -42,16 +42,21 @@
 /* navigation stylings  */
   .navbar-bg {
    background-color: var(--bgcolor-navbar);
-   max-width: 100%;
+   width: 100%;
    margin-top: -2.5rem;
+   
 
   }
   nav{
    background-color: var(--bgcolor-navbar);
-   max-width: 100%;
+   width: 100%;
    border-top: 2px solid var(--bgcolor-navbar) ;
    padding: 0 0 0.4rem  0.6rem;
+   position: fixed;
+   
   }
+  
+  
   
   ul,li {
      list-style-type: none;
@@ -128,6 +133,7 @@
       button[ class *="navbar-toggler"] {
          display:block; 
          cursor: pointer;
+         position: sticky;
 
    } 
 
