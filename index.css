@@ -127,5 +127,9 @@
 
 
   /* header section starts here */
+  .header{
+     background-color: black;
+     height: 75vh;
+  }
    
   /* header section ends here */
