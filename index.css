@@ -131,28 +131,25 @@
 
   /* header section starts here */
   .header{
-     background-color: black;
+     background-color:black;
+     color: var(--titleHeaderText);
      height: 75vh;
   }
    
 
-  .header-information > h1{
+  .header-introduction > h1,p {
      display: flex;
      flex-flow: row wrap;
      justify-content: center;
-     color: var(--titleHeaderColor);
-     font-size: 3rem;
-     border:2px solid red;
-     padding-top: 8rem;
-     
-
+     align-items: center;
   }
-  .header-information > p{
-   display: flex;
-   flex-flow: row wrap;
-   justify-content: center;
-   color: var(--titleHeaderColor);
-  
+  .header-title {
+     padding-top: 8rem;
+     font-size: 250%;
+  }
+  .header-description {
+     font-size: 110%;
+  }
 
-}
+
   /* header section ends here */
