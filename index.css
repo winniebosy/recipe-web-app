@@ -8,6 +8,9 @@
    --titlefontcolor: #666666;
    --primaryfontcolor: #333333;
    --primaryfontsize : 1.1rem;
+   --titleHeaderColor: #ffffff;
+   --titleHeaderText: #ffffff;
+
 
 }
   html {
@@ -132,4 +135,9 @@
      height: 75vh;
   }
    
+
+  .header-information{
+     display: flex;
+     color:
+  }
   /* header section ends here */
