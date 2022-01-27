@@ -124,7 +124,7 @@
   /* mobile navigation toggle ends here */
 
   /* media query for navigation */
-   @media (min-width:480px) and (max-width:767px){ 
+   @media(max-width:767px){ 
       button[ class *="navbar-toggler"] {
          display:block; 
          cursor: pointer;
@@ -135,13 +135,23 @@
       background-color: #010d0e;
    }
 
-   ul {
-      width:100%;
+   
+ 
+   .navbar-list {
+      display: flex;
+      align-content: center;
+      justify-content: center;
+       flex-flow:column;
+       gap: 0rem;
+       padding: 0.3rem;
+       
+ 
+ 
    }
-
-   ul li {
-      display:block;
+   li{
+      border: 2px solid green;
    }
+ 
 }
 
   
