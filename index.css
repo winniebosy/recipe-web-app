@@ -136,8 +136,23 @@
   }
    
 
-  .header-information{
+  .header-information > h1{
      display: flex;
-     color:
+     flex-flow: row wrap;
+     justify-content: center;
+     color: var(--titleHeaderColor);
+     font-size: 3rem;
+     border:2px solid red;
+     padding-top: 8rem;
+     
+
   }
+  .header-information > p{
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: center;
+   color: var(--titleHeaderColor);
+   border:2px solid red;
+
+}
   /* header section ends here */
