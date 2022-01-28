@@ -133,6 +133,11 @@
 
   /* media query for navigation */
    @media(max-width:767px){ 
+
+     nav{
+        visibility: hidden;
+     }
+
       button[ class *="navbar-toggler"] {
          display:block; 
          cursor: pointer;
@@ -224,7 +229,7 @@
      align-items: center;
   }
   .header-title {
-     padding-top: 8rem;
+     padding-top: 8.5rem;
      font-size: 250%;
   }
   .header-description {
