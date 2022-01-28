@@ -134,9 +134,10 @@
   /* media query for navigation */
    @media(max-width:767px){ 
 
-     nav{
+     /* nav{ 
         visibility: hidden;
      }
+     */
 
       button[ class *="navbar-toggler"] {
          display:block; 
@@ -214,12 +215,16 @@
   /* navigation section stylings end here */
 
 /* parallax section starts here */
+.parallax {
+   background-image: url('project images\header-background.jpg');
+   border: 3px solid red;
 
+}
 
 /* parallax section ends here */
   /* header section starts here */
   .header{
-     background-color:black;
+     
      color: var(--titleHeaderText);
      height: 75vh;
   }
