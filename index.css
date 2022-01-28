@@ -216,7 +216,7 @@
 
 /* parallax section starts here */
 .parallax {
-   background-image: url("pimage/header-background.jpg"); 
+   background-image: url("pimage/background-1.jpg"); 
    max-width: 100%;
    height: 100vh;
    /* creating the parallax effect */
