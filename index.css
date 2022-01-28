@@ -55,7 +55,7 @@
    width: 100%;
    border-top: 2px solid var(--bgcolor-navbar) ;
    padding: 0 0 0.4rem  0.6rem;
-   position: fixed;
+   /* position: fixed; */
    
   }
   
@@ -216,31 +216,34 @@
 
 /* parallax section starts here */
 .parallax {
-   background-image: url('project images\header-background.jpg');
-   border: 3px solid red;
+   background-image: url("project images\header-background.jpg"); 
+   max-width: 100%;
+   height: 100vh;
+  
 
 }
 
 /* parallax section ends here */
   /* header section starts here */
-  .header{
+  .hero-section{
      
      color: var(--titleHeaderText);
-     height: 75vh;
+     border: 5px solid red;
+     
   }
    
 
-  .header-introduction > h1,p {
+  .hero-introduction > h1,p {
      display: flex;
      flex-flow: row wrap;
      justify-content: center;
      align-items: center;
   }
-  .header-title {
+  .hero-title {
      padding-top: 8.5rem;
      font-size: 250%;
   }
-  .header-description {
+  .hero-description {
      font-size: 110%;
   }
 
