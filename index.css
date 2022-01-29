@@ -239,15 +239,11 @@
      transform: translate(-50%,-50%);
      text-align: center;
      padding: 1rem;
-     background-color: #000000;
-     background-color: rgba(0,0,0,0.5);
-     
-
-   
-     
+     /* black background color for the text overlay */
+     background-color: #000000;     
+     background-color: rgba(0,0,0,0.5);  
   }
    
-
   .hero-introduction > h1,p {
      display: flex;
      flex-flow: row wrap;
