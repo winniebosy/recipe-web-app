@@ -303,12 +303,32 @@
      text-align: center;
      margin:  1rem 0.5rem;
      padding: 0.5rem;
+     font-size: 200%;
   }
 
   /* section area styling */
   
+.row {
+   display: flex;
+   justify-content: space-around;
+   align-content: center;
+   flex-wrap: row wrap;
+ 
 
-
+}
+article[class *="card card-two"]{
+   width: 18rem;
+   border: 2px solid red;
+}
+article[class *="card card-one"]{
+   width: 18rem;
+   border: 2px solid red;
+}
+article[class *="card card-three"]{
+   width: 18rem;
+   border: 2px solid red;
+}
+ 
 
 
 
