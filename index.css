@@ -233,7 +233,15 @@
   .hero-section{
      
      color: var(--titleHeaderText);
-     border: 5px solid red;
+     position: absolute;
+     top: 50%;
+     left:50%;
+     transform: translate(-50%,-50%);
+     text-align: center;
+     padding: 1rem;
+     
+
+   
      
   }
    
@@ -245,7 +253,7 @@
      align-items: center;
   }
   .hero-title {
-     padding-top: 8.5rem;
+     padding-top: 8rem;
      font-size: 250%;
   }
   .hero-description {
