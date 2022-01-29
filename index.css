@@ -251,6 +251,9 @@
    background-position: center center;
    background-repeat: no-repeat;
    background-size: cover;
+
+   
+
   
 
 }
@@ -290,9 +293,16 @@
 
   /* main section area */
   main {
-     background-color: #D3D3D3;
-     border: 2px solid red;
+     background-color: #f0ebeb;
      max-width: 100%;
+     margin-top:0;
+     border: 1px solid #f0ebeb;
+     
+  }
+  h2[class*="about-title"]{
+     text-align: center;
+     margin:  1rem 0.5rem;
+     padding: 0.5rem;
   }
 
   /* section area styling */
