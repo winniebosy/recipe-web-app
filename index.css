@@ -56,7 +56,7 @@
    border-top: 2px solid var(--bgcolor-navbar) ;
    padding: 0 0 0.4rem  0.6rem;
    /* position: fixed;  */
-   /* animations and transitions */
+   /* animations for the navigation section */
    animation: navigation ease-out 3s;
    animation-iteration-count: 1;
    animation-fill-mode: forwards;
@@ -73,7 +73,7 @@
   }
 }
 
-   
+   /* general nav styling ends here */
   
   
   
