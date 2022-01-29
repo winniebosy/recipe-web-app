@@ -55,7 +55,7 @@
    width: 100%;
    border-top: 2px solid var(--bgcolor-navbar) ;
    padding: 0 0 0.4rem  0.6rem;
-   /* position: fixed; */
+   /* position: fixed;  */
    
   }
   
@@ -239,6 +239,8 @@
      transform: translate(-50%,-50%);
      text-align: center;
      padding: 1rem;
+     background-color: #000000;
+     background-color: rgba(0,0,0,0.5);
      
 
    
@@ -253,7 +255,7 @@
      align-items: center;
   }
   .hero-title {
-     padding-top: 8rem;
+   
      font-size: 250%;
   }
   .hero-description {
