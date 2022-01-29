@@ -56,14 +56,31 @@
    border-top: 2px solid var(--bgcolor-navbar) ;
    padding: 0 0 0.4rem  0.6rem;
    /* position: fixed;  */
-   
+   /* animations and transitions */
+   animation: navigation ease-out 3s;
+   animation-iteration-count: 1;
+   animation-fill-mode: forwards;
+      
+
+
+}
+@keyframes navigation {
+  0% {
+     opacity: 0;
+  } 
+  100% {
+     opacity: 1;
   }
+}
+
+   
   
   
   
   ul,li {
      list-style-type: none;
      margin: 0;
+
   }
 
   .navbar-list {
@@ -73,9 +90,19 @@
       flex-flow:row wrap;
       gap: 3rem;
       padding: 0.3rem;
+       /* animations and transitions */
+   animation: navigation 4s 0 2 normal ease-in forwards;
       
 
 
+  }
+  @keyframes navigation {
+    0% {
+       opacity: 0;
+    } 
+    100% {
+       opacity: 1;
+    }
   }
 
   .navbar-item{
