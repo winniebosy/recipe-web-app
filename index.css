@@ -291,6 +291,9 @@
   /* main section area */
   main {
      background-color: #D3D3D3;
+     margin-top: 0.5rem;
+     border: 2px solid red;
+     max-width: 100%;
   }
 
   /* section area styling */
