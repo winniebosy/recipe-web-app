@@ -346,6 +346,13 @@ article[class *="card"]{
    padding: 0.2rem;
    text-align: center;
 }
+.card-link {
+   display:flex;
+   align-items: center;
+   justify-content: center;
+   border:2px solid blue;
+}
+
  
 a[class*="btn-link"] {
     text-align: center;
