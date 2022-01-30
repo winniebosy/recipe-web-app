@@ -313,16 +313,16 @@
    justify-content: space-around;
    align-content: center;
    flex-wrap: row wrap;
-   max-width: 100%;
+   width: 100%;
    overflow: hidden;
  
 
 }
 article[class *="card"]{
    width:33.33%;
-   border-radius: 3px;
+   border-radius: 10px;
    box-shadow: 2px 2px 20px #999797;
-   margin: 0.3rem;
+   margin: 1rem;
 
 }
  
