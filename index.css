@@ -321,6 +321,7 @@
 /* card article section styling */
 article[class *="card"]{
    width:33.33%;
+   height: auto;
    border-radius: 10px;
    box-shadow: 2px 2px 20px #999797;
    margin: 1rem;
@@ -339,9 +340,23 @@ article[class *="card"]{
     margin: 0.3rem;
     padding: 0.3rem
  }
-
+.card-text {
+   margin: 0.2rem;
+   padding: 0.2rem;
+   text-align: center;
+}
  
-
+a[class*="btn-link"] {
+    text-align: center;
+    border-style: ridge;
+    border-width: 1px;
+    border-color:var(--bgcolor-navbar) ;
+    color:var(--bglink);
+    background-color: var(--bgcolor-navbar);
+    padding: 0.5rem 1rem;
+    margin: auto;
+    font-size: 100%;
+}
 
 
 
