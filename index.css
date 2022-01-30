@@ -355,7 +355,7 @@ a[class*="btn-link"] {
     color:var(--bglink);
     background-color: var(--bgcolor-navbar);
     padding: 0.5rem 1rem;
-    margin: 1rem;
+    margin: 2rem 2rem 1rem 2rem;
     font-size: 80%;
     border-radius: 10px;
 }
